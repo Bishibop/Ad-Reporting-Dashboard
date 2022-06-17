@@ -113,7 +113,8 @@ GEM
     httpi (2.4.2)
       rack
       socksify
-    i18n (0.7.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     interactive_editor (0.0.10)
       spoon (>= 0.0.1)
     jbuilder (2.4.1)
@@ -135,7 +136,9 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-    mimemagic (0.3.1)
+    mimemagic (0.4.3)
+      nokogiri (~> 1)
+      rake
     mini_portile2 (2.0.0)
     minitest (5.9.0)
     multi_json (1.12.1)
